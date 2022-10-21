@@ -53,13 +53,13 @@
 .title input[type=text] {
 	padding-left: 40px;
 }
-textarea {
+.content {
 	position: relative;
 	width: 80%;
 	margin: 40px 3%;
 }
 
-textarea {
+.content input[type=area] {
 	font: 15px/24px sans-serif;
 	box-sizing: border-box;
 	width: 100%;
@@ -71,9 +71,9 @@ textarea {
 	border-radius: 4px;
 	outline: none;
 }
-textarea:focus {
+.content input[type=area] {
 	border-color: #ffa200;
 }
-textarea {
+.content input[type=area] {
 	padding-left: 40px;
 }

@@ -11,7 +11,10 @@
   </head>
 
   <body>
-    <% #createのnoticeを表示する %>
+    <div class="alert alert-info" role="alert">
+     <%= flash[:notice] %>
+    </div>
+    
     <%= yield %>
   </body>
 </html>

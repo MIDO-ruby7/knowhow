@@ -1,2 +1,19 @@
-<h1>新規投稿
-<p>名前、タイトル、内容、できればタグ付けしたい</p>
+<div class="form">
+  
+    <div class="form_title">
+      <h2>New Give</h2>
+    </div>
+    <%= form_with url:posts_path do |form| %>
+      <div class="name">
+        <input type="text" name="name" value="" placeholder="名前">
+  
+      </div>
+      <div class="title">
+        <input type="text" name="title" value="" placeholder="タイトル">
+      </div>
+      
+      <textarea placeholder="内容"></textarea>
+      <input type="submit" value="Give!">
+    <% end %>
+  
+</div>
